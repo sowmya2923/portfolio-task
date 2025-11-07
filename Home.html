@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pothuraju Sowmya | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #fffaf6;
+      font-family: 'Poppins', sans-serif;
+    }
+    .navbar {
+      background-color: #ffa07a;
+    }
+    .hero-section {
+      padding: 100px 0;
+    }
+    .about-section, .footer {
+      background-color: #48a9a6;
+      color: white;
+    }
+    .project-card img {
+      display: block;
+      margin: 0 auto;
+      width: 70%;
+      height: 200px;
+      object-fit: cover;
+    }
+    .btn-custom {
+      background-color: #ffa07a;
+      border: none;
+      color: #000;
+    }
+    .footer {
+      padding: 20px 0;
+    }
+    .footer a {
+      color: white;
+      margin: 0 10px;
+      font-size: 1.3rem;
+    }
+    .skill-item {
+      margin-bottom: 15px;
+    }
+    .bi-star-fill {
+      color: gold;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar navbar-expand-lg sticky-top shadow-sm">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#home">Pothuraju Sowmya</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section id="home" class="hero-section container text-center text-md-start">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <h1 class="fw-bold">Hi, I'm <br><span class="text-danger">Pothuraju Sowmya</span></h1>
+        <p class="lead mt-3">A Frontend Developer passionate about creating beautiful and responsive web experiences.</p>
+        <a href="#projects" class="btn btn-custom mt-3">View My Work</a>
+      </div>
+      <div class="col-md-6 text-center mt-4 mt-md-0">
+        <img src="https://img.freepik.com/premium-photo/cheerful-young-businesswoman-sitting-her-workplace-isolated-white-background-detailed_660230-82336.jpg?semt=ais_hybrid&w=740&q=80" alt="Profile" class="img-fluid rounded shadow" style="max-width: 70%;">
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section id="about" class="about-section py-5">
+    <div class="container text-center">
+      <h2 class="fw-bold mb-3">About Me</h2>
+      <p class="mx-auto" style="max-width: 600px;">
+        I’m a frontend developer who loves building intuitive, responsive, and aesthetically pleasing web applications using modern tools and technologies.
+      </p>
+      <a href="https://drive.google.com/file/d/1RKedxQTtqQ2hYsj_ENTF98sJ0cPD6a1U/view?usp=drivesdk" class="btn btn-outline-light mt-3">Download Resume</a>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS SECTION ===== -->
+  <section id="projects" class="py-5">
+    <div class="container">
+      <h2 class="fw-bold text-center mb-5">Projects</h2>
+      <div class="row g-4 justify-content-center">
+
+        <!-- Project 1 -->
+        <div class="col-md-4">
+          <div class="card project-card shadow-sm text-center">
+            <img src="https://i.pinimg.com/736x/77/0b/80/770b805d5c99c7931366c2e84e88f251.jpg" class="card-img-top w-50" alt="Weather App">
+            <div class="card-body">
+              <h5 class="card-title">Weather App</h5>
+              <p class="card-text">Get real-time weather updates using the OpenWeather API.</p>
+              <a href="https://weather-code-alpha.vercel.app/" class="btn btn-primary btn-sm me-2">Demo</a>
+              <a href="https://github.com/sowmya2923/Weather-code" class="btn btn-primary btn-sm">Code</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="col-md-4">
+          <div class="card project-card shadow-sm text-center">
+            <img src="https://i.pinimg.com/736x/51/81/9c/51819c0566eb155d5f90f9d4967da4ee.jpg" class="card-img-top" alt="To-Do List">
+            <div class="card-body">
+              <h5 class="card-title">To-Do List</h5>
+              <p class="card-text">A simple and elegant to-do app to manage daily tasks efficiently.</p>
+              <a href="https://react-task-ochre-five.vercel.app/" class="btn btn-primary btn-sm me-2">Demo</a>
+              <a href="https://github.com/sowmya2923/Todo-React" class="btn btn-primary btn-sm">Code</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="col-md-4">
+          <div class="card project-card shadow-sm text-center">
+            <img src="https://i.pinimg.com/736x/63/71/38/63713885b9ecc142f427b92518cf9b15.jpg" class="card-img-top w-50" alt="Hospital Info">
+            <div class="card-body">
+              <h5 class="card-title">Hospital Info System</h5>
+              <p class="card-text">A web-based system designed to manage patients, doctors, and appointments efficiently within a hospital.</p>
+              <a href="https://hospital-code-phi.vercel.app/" class="btn btn-primary btn-sm me-2">Demo</a>
+              <a href="https://github.com/sowmya2923/Hospital-code" class="btn btn-primary btn-sm">Code</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS & CONTACT SECTION ===== -->
+<section id="skills" class="py-5 bg-light">
+  <div class="container">
+    <div class="row g-4">
+      
+      <!-- Skills Section -->
+      <div class="col-md-6">
+        <h3 class="fw-bold mb-4 text-center">Skills</h3>
+
+        <div class="skill-item mb-3">
+          <span class="fw-bold">HTML</span><br>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-half"></i>
+        </div>
+
+        <div class="skill-item mb-3">
+          <span class="fw-bold">CSS</span><br>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star"></i>
+        </div>
+
+        <div class="skill-item mb-3">
+          <span class="fw-bold">JavaScript</span><br>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-half"></i>
+          <i class="bi bi-star"></i>
+        </div>
+
+        <div class="skill-item mb-3">
+          <span class="fw-bold">React</span><br>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star-fill"></i>
+          <i class="bi bi-star"></i>
+          <i class="bi bi-star"></i>
+        </div>
+      </div>
+
+      <!-- Contact Section -->
+      <div class="col-md-6" id="contact">
+        <h3 class="fw-bold mb-4 text-center">Contact</h3>
+        <form class="px-3">
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Your Name">
+          </div>
+          <div class="mb-3">
+            <input type="email" class="form-control" placeholder="Your Email">
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+          </div>
+          <div class="text-center">
+            <button class="btn btn-dark px-4" type="submit">Send</button>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer text-center">
+    <div class="container">
+      <a href="#" class="me-3"><i class="bi bi-linkedin"></i></a>
+      <a href="#"><i class="bi bi-twitter"></i></a>
+      <p class="mt-2 mb-0">© 2025 Pothuraju Sowmya | All Rights Reserved</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
